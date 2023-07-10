@@ -1,0 +1,49 @@
+/* header related styles */
+.header{
+    background-color: rgba(229, 84, 115, 0.10);
+    padding: 200px 240px 0px 240px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-title{
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #272727;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner-description{
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    padding: 20px 42px;
+    gap: 10px;
+    display: inline-flex;
+    align-items: flex-start;
+    font-size: 20px;
+}
+.banner .banner-pic{
+    width: 630px;
+    height: 800px;
+    flex-shrink: 0;
+}
